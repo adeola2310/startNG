@@ -11,7 +11,9 @@ body{
 .my_image{
     border: 3px solid dodgerblue;
     border-radius: 50%;
-    width: 8%;
+}
+.text{
+    line-height: 1.5;
 }
 .header h3{
     color: dodgerblue;
@@ -30,11 +32,12 @@ section:last-child{
 .section-title{
     font-weight: bolder;
     font-size: 19px;
+    color: dodgerblue;
 }
 .job{
     padding-bottom: 24px;
     margin-bottom: 24px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid dodgerblue;
 }
 .job:last-child{
     border-bottom: none;
