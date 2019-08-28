@@ -1,0 +1,53 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.header{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_image{
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+    width: 8%;
+}
+.header h3{
+    color: dodgerblue;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 30px;
+    padding: 20px 0;
+    margin: 10px auto;
+    border-bottom: 1px solid lightgrey;
+}
+section:last-child{
+    border-bottom: none;
+}
+.section-title{
+    font-weight: bolder;
+    font-size: 19px;
+}
+.job{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+}
+.job:last-child{
+    border-bottom: none;
+}
+.job-title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.job-company{
+    font-weight: bold;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
