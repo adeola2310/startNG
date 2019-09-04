@@ -10,7 +10,7 @@
 <div class="header">
     <h4>Fill in the Contact Form</h4>
 </div>
-    <form name="contactForm" method="post" onsubmit="sumbitForm()">
+    <form name="contactForm" method="post" onsubmit="return submitForm()">
         <ul class="wrapper">
             <li class="form-row">
                 <label for="name">Name</label>
@@ -29,7 +29,7 @@
                 <textarea cols="10" name="message" required minlength="20"></textarea>
             </li>
             <li class="form-row">
-                <button type="submit" id="submit" disabled>Submit</button>
+                <button type="submit" id="submit">Submit</button>
             </li>
         </ul>
     </form>

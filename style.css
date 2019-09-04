@@ -117,4 +117,5 @@ border: 2px solid red;
     color: white;
     border: 2px solid black;
     align-items: center;
+    cursor: pointer;
 }

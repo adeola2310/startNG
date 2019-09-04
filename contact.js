@@ -1,11 +1,14 @@
-function myContact(){
-    var name = document.getElementById('name');
-    var email = document.getElementById('email');
-    var title = document.getElementById('title');
-    var message = document.getElementById('message');
-    var submit = document.getElementById('submit');
-}
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const title = document.getElementById('title');
+    const message = document.getElementById('message');
+    const submit = document.getElementById('submit');
 
 function submitForm() {
-    
+if (name =="" || email == "" ||title =="" || message ==""  ){
+    alert('all field must be filled');
+}
+else{
+    alert('Form successfully submitted');
+}
 }
