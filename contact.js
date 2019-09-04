@@ -6,3 +6,6 @@ function myContact(){
     var submit = document.getElementById('submit');
 }
 
+function submitForm() {
+    
+}
