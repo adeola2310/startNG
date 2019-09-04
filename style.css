@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.header{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_image{
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+}
+.text{
+    line-height: 1.5;
+}
+.header h3{
+    color: dodgerblue;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 30px;
+    padding: 20px 0;
+    margin: 10px auto;
+    border-bottom: 1px solid lightgrey;
+}
+section:last-child{
+    border-bottom: none;
+}
+.section-title{
+    font-weight: bolder;
+    font-size: 19px;
+    color: dodgerblue;
+}
+.job{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid dodgerblue;
+}
+.job:last-child{
+    border-bottom: none;
+}
+.job-title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.job-company{
+    font-weight: bold;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: lightcoral;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    height: 50vh;
+    margin-top: 30px;
+}
+.header{
+    text-align: center;
+}
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+.form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+.form-row > input {
+    flex: 2;
+    border-radius: 5px;
+    height: 20px;
+}
+.sub-error{
+    display: flex;
+
+}
+.form-row textarea{
+    height: 60px;
+    flex: 2;
+}
+.form-row textarea:invalid{
+    border: 2px solid red;
+}
+.form-row textarea:valid{
+    border: 2px solid whitesmoke;
+}
+.form-row > input
+ {
+    padding: .5em;
+}
+.form-row input:invalid{
+border: 2px solid red;
+}
+.form-row input:valid{
+    border: 2px solid whitesmoke;
+}
+.form-row > button{
+    padding: .5em;
+}
+.form-row > button {
+    background: gray;
+    color: white;
+    border: 2px solid black;
+    align-items: center;
+    cursor: pointer;
+}
